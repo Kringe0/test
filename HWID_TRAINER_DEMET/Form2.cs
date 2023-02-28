@@ -728,8 +728,7 @@ namespace HWID_TRAINER_DEMET
             // 
             // button7
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.No;
-            this.button7.Enabled = false;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(59, 15);
             this.button7.Name = "button7";
@@ -741,8 +740,7 @@ namespace HWID_TRAINER_DEMET
             // 
             // button9
             // 
-            this.button9.Cursor = System.Windows.Forms.Cursors.No;
-            this.button9.Enabled = false;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Location = new System.Drawing.Point(13, 15);
             this.button9.Name = "button9";
@@ -843,9 +841,8 @@ namespace HWID_TRAINER_DEMET
             // comboBox2
             // 
             this.comboBox2.BackColor = System.Drawing.Color.DarkGray;
-            this.comboBox2.Cursor = System.Windows.Forms.Cursors.No;
+            this.comboBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.Enabled = false;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "Recovery HP",
