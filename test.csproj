@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F973EEC9-D7AE-4487-A691-35B7D03429A0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <AssemblyName>Sensi Trainer</AssemblyName>
+    <AssemblyName>SensiTrainer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
