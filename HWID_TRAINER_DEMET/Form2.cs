@@ -86,6 +86,8 @@ namespace HWID_TRAINER_DEMET
         private Label label4;
         private Button button20;
         private GroupBox groupBox17;
+        private GroupBox groupBox18;
+        private ComboBox comboBox3;
         private string hwid;
         public Form2() => this.InitializeComponent();
 
@@ -540,6 +542,8 @@ namespace HWID_TRAINER_DEMET
             this.button5 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.groupBox18 = new System.Windows.Forms.GroupBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -558,6 +562,7 @@ namespace HWID_TRAINER_DEMET
             this.groupBox7.SuspendLayout();
             this.groupBox13.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox18.SuspendLayout();
             this.SuspendLayout();
             // 
             // BGWorker
@@ -996,6 +1001,7 @@ namespace HWID_TRAINER_DEMET
             // 
             // groupBox17
             // 
+            this.groupBox17.Controls.Add(this.groupBox18);
             this.groupBox17.Controls.Add(this.label4);
             this.groupBox17.ForeColor = System.Drawing.Color.Aqua;
             this.groupBox17.Location = new System.Drawing.Point(0, 3);
@@ -1274,6 +1280,34 @@ namespace HWID_TRAINER_DEMET
             this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // groupBox18
+            // 
+            this.groupBox18.Controls.Add(this.comboBox3);
+            this.groupBox18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox18.ForeColor = System.Drawing.Color.Aqua;
+            this.groupBox18.Location = new System.Drawing.Point(75, 16);
+            this.groupBox18.Name = "groupBox18";
+            this.groupBox18.Size = new System.Drawing.Size(103, 41);
+            this.groupBox18.TabIndex = 70;
+            this.groupBox18.TabStop = false;
+            this.groupBox18.Text = "Attack Speed";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.BackColor = System.Drawing.Color.DarkGray;
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "LEVEL 1",
+            "LEVEL 2 ",
+            "LEVEL 3 ",
+            "LEVEL 4",
+            "LEVEL 5"});
+            this.comboBox3.Location = new System.Drawing.Point(3, 14);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(96, 21);
+            this.comboBox3.TabIndex = 53;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1318,6 +1352,7 @@ namespace HWID_TRAINER_DEMET
             this.groupBox7.ResumeLayout(false);
             this.groupBox13.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
+            this.groupBox18.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
