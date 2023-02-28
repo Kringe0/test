@@ -22,8 +22,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/Kringe0/test/blob/master/published/</InstallUrl>
-    <UpdateUrl>https://github.com/Kringe0/test/blob/master/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/Kringe0/test/master/published/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/Kringe0/test/master/published/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <ApplicationRevision>2</ApplicationRevision>
