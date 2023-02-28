@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F973EEC9-D7AE-4487-A691-35B7D03429A0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <AssemblyName>𝕭𝖑𝖔𝖔𝖉𝖞 𝕽𝕬𝕹</AssemblyName>
+    <AssemblyName>Sensi Trainer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -26,7 +26,7 @@
     <UpdateUrl>https://github.com/Kringe0/test/blob/master/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
