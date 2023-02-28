@@ -268,14 +268,14 @@ namespace HWID_TRAINER_DEMET
         {
             button9.ForeColor = Color.Lime;
             button7.ForeColor = Color.Aqua;
-            this.m.FreezeValue("00D3406C", "float", "18000", "");
+            this.m.FreezeValue("00B84A9C", "float", "18000", "");
         }
 
         private void button7_Click_1(object sender, EventArgs e)
         {
             button7.ForeColor = Color.Lime;
             button9.ForeColor = Color.Aqua;
-            this.m.FreezeValue("00D3406C", "float", "38", "");
+            this.m.FreezeValue("00B84A9C", "float", "38", "");
         }
 
     private void button13_Click(object sender, EventArgs e)
@@ -291,32 +291,32 @@ namespace HWID_TRAINER_DEMET
     private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
     {
       if (this.comboBox2.SelectedIndex == 0)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 00 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 00 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 1)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 01 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 01 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 2)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 02 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 02 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 3)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 03 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 03 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 4)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 04 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 04 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 5)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 05 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 05 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 6)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 06 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 06 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 7)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 07 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 07 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 8)
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 08 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 08 00", "", (Encoding) null);
       else if (this.comboBox2.SelectedIndex == 9)
       {
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 09 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 09 00", "", (Encoding) null);
       }
       else
       {
         if (this.comboBox2.SelectedIndex != 10)
           return;
-        this.m.WriteMemory("00D3402C", "bytes", "1A 00 0a 00", "", (Encoding) null);
+        this.m.WriteMemory("00B84A5C", "bytes", "1A 00 0a 00", "", (Encoding) null);
       }
     }
 
