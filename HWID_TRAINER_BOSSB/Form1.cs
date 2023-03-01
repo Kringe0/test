@@ -73,7 +73,7 @@ namespace HWID_TRAINER_BOSSB
             }
             else
             {
-                //    MessageBox.Show("I have admin privileges :-)");
+                  //  MessageBox.Show("CHEATER KYLLE CLEMENTE AKA SWAYEEE");
             }
             // Brint-to-front hack
             this.TopMost = true;
@@ -95,7 +95,8 @@ namespace HWID_TRAINER_BOSSB
            // this.Hide();
             if (new WebClient().DownloadString("https://pastebin.com/80smDHVF").Contains(this.textbox.Text))
              {
-               int num = (int) MessageBox.Show("Login successful!", "Garapalan na!!!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("CHEATER KYLLE CLEMENTE AKA SWAYEEE");
+                int num = (int) MessageBox.Show("Login successful!", "Garapalan na!!!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
               // new Form2().Show();
               // this.Hide();
                 this.Hide();
