@@ -110,6 +110,9 @@
       <HintPath>packages\Microsoft.VisualStudio.Setup.Configuration.Interop.1.16.30\lib\net35\Microsoft.VisualStudio.Setup.Configuration.Interop.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
+    <Reference Include="NuGet.Frameworks, Version=6.5.0.154, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\NuGet.Frameworks.6.5.0\lib\net472\NuGet.Frameworks.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -135,11 +138,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HWID_TRAINER_DEMET\Resources.Designer.cs" />
-    <Compile Include="HWID_TRAINER_DEMET\SplashScreen.cs">
+    <Compile Include="HWID_TRAINER_BOSSB\Resources.Designer.cs" />
+    <Compile Include="HWID_TRAINER_BOSSB\SplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HWID_TRAINER_DEMET\SplashScreen.Designer.cs">
+    <Compile Include="HWID_TRAINER_BOSSB\SplashScreen.Designer.cs">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
@@ -151,14 +154,14 @@
     <Compile Include="วีรชนรัน_ProcessedByFody.cs" />
     <Compile Include="Chrome\Properties\Resources.cs" />
     <Compile Include="Chrome\Properties\Settings.cs" />
-    <Compile Include="HWID_TRAINER_DEMET\Form1.cs">
+    <Compile Include="HWID_TRAINER_BOSSB\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HWID_TRAINER_DEMET\Form2.cs">
+    <Compile Include="HWID_TRAINER_BOSSB\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HWID_TRAINER_DEMET\KeyHelper.cs" />
-    <Compile Include="HWID_TRAINER_DEMET\Program.cs" />
+    <Compile Include="HWID_TRAINER_BOSSB\KeyHelper.cs" />
+    <Compile Include="HWID_TRAINER_BOSSB\Program.cs" />
     <Compile Include="Costura\AssemblyLoader.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
@@ -172,9 +175,9 @@
     <EmbeddedResource Include="Costura\memory\costura.memory.dll.compressed" />
     <EmbeddedResource Include="costura\system\diagnostics\diagnosticsource\dll.compressed" />
     <EmbeddedResource Include="costura\system\security\principal\windows\dll.compressed" />
-    <EmbeddedResource Include="HWID_TRAINER_DEMET\Form1.resx" />
-    <EmbeddedResource Include="HWID_TRAINER_DEMET\Form2.resx" />
-    <EmbeddedResource Include="HWID_TRAINER_DEMET\SplashScreen.resx">
+    <EmbeddedResource Include="HWID_TRAINER_BOSSB\Form1.resx" />
+    <EmbeddedResource Include="HWID_TRAINER_BOSSB\Form2.resx" />
+    <EmbeddedResource Include="HWID_TRAINER_BOSSB\SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

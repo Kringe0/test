@@ -1,5 +1,5 @@
 ﻿// Decompiled with JetBrains decompiler
-// Type: HWID_TRAINER_DEMET.Form2
+// Type: HWID_TRAINER_BOSSB.Form2
 // Assembly: วีรชนรัน, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 // MVID: BD37BE47-05E9-40BA-9DC6-0FE501AB2AB8
 // Assembly location: C:\HeroicRanEpisode7\วีรชนรัน.exe
@@ -15,7 +15,7 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Windows.Input;
 
-namespace HWID_TRAINER_DEMET
+namespace HWID_TRAINER_BOSSB
 {
   public class Form2 : Form
   {
@@ -282,7 +282,7 @@ namespace HWID_TRAINER_DEMET
     {
     }
 
-    private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e) => Process.Start("https://www.facebook.com/gaming/JutsuGamingzxc");
+    private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e) => Process.Start("https://www.facebook.com/Swayeee");
 
     private void groupBox5_Enter(object sender, EventArgs e)
     {
@@ -817,12 +817,12 @@ namespace HWID_TRAINER_DEMET
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.linkLabel1.Location = new System.Drawing.Point(24, 469);
+            this.linkLabel1.Location = new System.Drawing.Point(40, 469);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(198, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(163, 20);
             this.linkLabel1.TabIndex = 16;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Follow Me on Facebook";
+            this.linkLabel1.Text = "KYLLE CLEMENTE";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked_1);
             // 
             // groupBox10

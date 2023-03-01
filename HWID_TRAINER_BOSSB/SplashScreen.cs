@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Forms;
 
-namespace HWID_TRAINER_DEMET
+namespace HWID_TRAINER_BOSSB
 {
     public partial class SplashScreen : Form
     {

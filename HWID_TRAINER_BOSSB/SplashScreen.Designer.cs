@@ -1,4 +1,4 @@
-﻿namespace HWID_TRAINER_DEMET
+﻿namespace HWID_TRAINER_BOSSB
 {
     partial class SplashScreen
     {

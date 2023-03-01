@@ -1,5 +1,5 @@
 ﻿// Decompiled with JetBrains decompiler
-// Type: HWID_TRAINER_DEMET.Form1
+// Type: HWID_TRAINER_BOSSB.Form1
 // Assembly: วีรชนรัน, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 // MVID: BD37BE47-05E9-40BA-9DC6-0FE501AB2AB8
 // Assembly location: C:\HeroicRanEpisode7\วีรชนรัน.exe
@@ -14,7 +14,7 @@ using System.Threading;
 using System.Windows.Forms;
 using Vortex_Loader;
 
-namespace HWID_TRAINER_DEMET
+namespace HWID_TRAINER_BOSSB
 {
     public class Form1 : Form
     {
